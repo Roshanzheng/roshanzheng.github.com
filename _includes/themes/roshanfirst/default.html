@@ -24,7 +24,9 @@
   </head>
 
   <body>
-  <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+    <header>
+      <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+    </header>
 
     <div class="navbar">
       <div class="navbar-inner">
@@ -39,20 +41,16 @@
     </div>
 
     <div class="container">
-
       <div class="content">
         {{ content }}
       </div>
-
-      <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
     </div> <!-- /container -->
-
+    <footer>
+      <p>&copy; {{ site.author.name }} 2012 
+        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+      </p>
+    </footer>
     {% include JB/analytics %}
   </body>
 </html>
