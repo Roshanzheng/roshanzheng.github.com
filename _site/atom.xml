@@ -4,7 +4,7 @@
  <title>Jekyll Bootstrap</title>
  <link href="http://username.github.com/atom.xml" rel="self"/>
  <link href="http://username.github.com"/>
- <updated>2012-08-03T23:29:35+08:00</updated>
+ <updated>2012-08-05T11:45:17+08:00</updated>
  <id>http://username.github.com</id>
  <author>
    <name>Name Lastname</name>
@@ -29,7 +29,7 @@
    <link href="http://username.github.com/2012/08/01/a-friend-in-advertising-industry"/>
    <updated>2012-08-01T00:00:00+08:00</updated>
    <id>http://username.github.com/2012/08/01/a-friend-in-advertising-industry</id>
-   <content type="html">&lt;h2 id='id1'&gt;背景&lt;/h2&gt;
+   <content type="html">&lt;h2 id='id2'&gt;背景&lt;/h2&gt;
 
 &lt;p&gt;今天见了一个广告行业的朋友，比我年长4、5岁。&lt;br /&gt;见面是因为生意，而我看见的是一个靓丽的生命。&lt;/p&gt;
 
