@@ -25,12 +25,16 @@
 
   <body>
     <header>
-      <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+      <a class="brand" href="{{ HOME_PATH }}">
+        <img class="logo" src="{{ BASE_PATH }}/assets/images/logo.png">
+        <span>{{ site.title }}</span>
+    </a>
+
     </header>
 
     <div class="navbar">
       {% for post in site.posts %}
-        <p><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></p>
+        <a class="link_nav" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
 
@@ -39,10 +43,15 @@
         {{ content }}
       </div>
     </div> <!-- /container -->
+    <div class="clearfix"></div>
     <footer>
-      <p>&copy; {{ site.author.name }} 2012 
-        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+      <p>&copy; {{ site.author.name }} 2012 </p>
+      <p>
+        基于<a href="https://github.com/mojombo/jekyll/" target="_blank" title="我推荐的静态页面生成系统">Jekyll</a>
+      </p>
+      <p>
+        感谢<a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        和<a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
       </p>
     </footer>
     {% include JB/analytics %}
