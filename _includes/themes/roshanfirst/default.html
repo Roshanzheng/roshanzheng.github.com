@@ -29,15 +29,9 @@
     </header>
 
     <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
-      </div>
+      {% for post in site.posts %}
+        <p><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></p>
+      {% endfor %}
     </div>
 
     <div class="container">
