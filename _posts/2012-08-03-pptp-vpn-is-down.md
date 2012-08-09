@@ -3,7 +3,7 @@ layout: post
 title: "PPTP VPN is Down"
 description: ""
 category: 
-tags: ["pptp","vpn","openvpn","linode"]
+tags: [pptp, vpn, openvpn, linode]
 ---
 {% include JB/setup %}
 
