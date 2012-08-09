@@ -43,7 +43,7 @@ h1{
 }
 
 .link_nav{
-	color: #ddd;
+	color: #bbb;
 	font-size: 0.8em;
 	display: block;
 	-webkit-transition-property:all;
@@ -94,7 +94,7 @@ header{
 
 .post_detail{
 	text-align: right;
-	color: #ddd;
+	color: #bbb;
 	display: block;
 	font-size: 0.8em;
 	height: 3em;
@@ -106,7 +106,7 @@ header{
 }
 
 .tags_list_post a{
-	color: #DDD;
+	color: #bbb;
 }
 
 .tags_list_post a:hover{
@@ -114,7 +114,7 @@ header{
 }
 
 .tags_list_post{
-	color: #DDD;
+	color: #bbb;
 	font-size: 0.5em;
 	margin-bottom: 2em;
 }
@@ -122,21 +122,21 @@ header{
 .post_date{
 	width:100%;
 	text-align: right;
-	color: #DDD;
+	color: #bbb;
 	font-size: 1em;
 	margin-bottom: 1em;
 }
 
 footer {
 	margin: 20px 0;
-	color: #ddd;
+	color: #bbb;
 	font-size: 0.8em;
 }
 footer p {
 	text-align: center; /* center align it with the container */
 }
 footer a{
-	color: #ddd;
+	color: #bbb;
 }
 footer a:hover{
 	color: #111;
