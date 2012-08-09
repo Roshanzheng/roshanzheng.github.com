@@ -13,11 +13,15 @@ p {
 	line-height: 1.2em;
 	text-indent: 1.2em;
 	margin-bottom: 0.6em;
-	
+
 }
 
 a{
 	text-decoration: none;
+}
+
+h1{
+	margin: 0;
 }
 
 .clearfix{
@@ -42,11 +46,18 @@ a{
 	color: #ddd;
 	font-size: 0.8em;
 	display: block;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:.4s; 
+	-moz-transition-property:all;
+	-moz-transition-duration:.4s; 
+	-o-transition-property:all;
+	-o-transition-duration:.4s; 
 
 }
 
 .link_nav:hover{
 	color: #111;
+	font-size: 1em;
 }
 
 header{
@@ -84,13 +95,36 @@ header{
 .post_detail{
 	text-align: right;
 	color: #ddd;
-	margin-bottom: 1em;
 	display: block;
 	font-size: 0.8em;
+	height: 3em;
+	line-height: 3em;
 }
 
 .post_detail:hover{
 	color: #666;
+}
+
+.tags_list_post a{
+	color: #DDD;
+}
+
+.tags_list_post a:hover{
+	color: #666;
+}
+
+.tags_list_post{
+	color: #DDD;
+	font-size: 0.5em;
+	margin-bottom: 2em;
+}
+
+.post_date{
+	width:100%;
+	text-align: right;
+	color: #DDD;
+	font-size: 1em;
+	margin-bottom: 1em;
 }
 
 footer {
