@@ -1,19 +1,19 @@
 <div class="page-header">
-  <h1>{{ page.title }} </h1>
-  <p>
+  <h1>{{ page.title }}</h1>
+  <div class="tags_list_post">
   {% unless page.tags == empty %}
-    <ul class="tag_box">
+    Tags:
     {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
+    {% include JB/tags_list_post %}
   {% endunless %}  
-  </p>
-  <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+  </div>
 </div>
 
 <div class="row">
   <div class="span8">
     {{ content }}
+    <div class="post_date">{{ page.date | date_to_string }}</div>
     {% include JB/comments %}
   </div>
+
 </div>
