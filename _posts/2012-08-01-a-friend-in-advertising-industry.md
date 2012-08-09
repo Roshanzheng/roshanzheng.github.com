@@ -3,7 +3,7 @@ layout: post
 title: "一个广告行业的朋友"
 description: ""
 category: 
-tags: [广告公司,创业,朋友]
+tags: ["广告公司","创业","朋友"]
 ---
 {% include JB/setup %}
 
