@@ -11,7 +11,7 @@ html, body {
 p {
 	margin: 0;
 	line-height: 1.2em;
-	text-indent: 1.2em;
+	text-indent: 2em;
 	margin-bottom: 0.6em;
 
 }
@@ -20,6 +20,9 @@ a{
 	text-decoration: none;
 }
 
+h4{
+	text-indent: 2em;
+}
 h1{
 	margin: 0;
 }
@@ -57,7 +60,6 @@ h1{
 
 .link_nav:hover{
 	color: #111;
-	font-size: 1em;
 }
 
 header{
