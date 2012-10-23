@@ -11,4 +11,6 @@ tags: [App, App Store, 无聊, 摇, 无聊摇摇]
 
 一方面为了庆祝，另一个方面也为了方便用户在本页上留下对“摇摇”的意见和建议。
 
+也请关注我们的官方微博：http://weibo.com/wuliaoyaoyao 。
+
 Enjoy!
